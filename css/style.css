@@ -1,0 +1,66 @@
+
+body{
+    
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  35px;
+    
+}
+.imagem img{
+    width: 150px;
+    border-radius: 50%;
+    transition: 1.8s;
+   
+}
+.imagem img:hover{
+   transform: scale(1.2);
+
+}
+
+
+.opition{
+width: 300px;
+
+margin: auto;
+}
+
+.opition .link{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+   
+}
+.opition .link button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    transition: 1.9s;
+}
+.opition .link button:hover{
+    background-color: rgba(0, 0, 255, 0.219);
+}
+
+
+.opition .link button a{
+text-decoration: none;
+color: white;
+
+transition: 1.4s;
+
+}
+
+.opition .link button a:hover{
+color: black;
+font-weight: 700;
+}
+
